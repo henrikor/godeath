@@ -12,7 +12,7 @@ func Death() {
 	doc := heredoc.Doc(`
 
 
-	...
+     ...
    ;::::;
   ;::::; :;
 ;:::::'   :;
@@ -43,25 +43,25 @@ func Death() {
 // Flower - No arguments - prints flower ASCHII
 func Flower() {
 	doc := heredoc.Doc(`
-	/-_-\
+    /-_-\
    /  /  \
   /  /    \
   \  \    /
    \__\__/
-	  \\
-	  -\\   ____
-		\\ /   /
+      \\
+      -\\   ____
+        \\ /   /
  ____   \\/___/
  \   \ -//
   \___\//-
-	 -//
-	  \\
-	  //
-	 //-
+     -//
+      \\
+      //
+     //-
    -//
    //
    \\
-	\\  
+    \\  
    `)
 
 	color.Green.Println(doc)
