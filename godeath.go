@@ -7,7 +7,8 @@ import (
 	"github.com/gookit/color"
 )
 
-func death() {
+// Death - no arguments - prints death ASCHII
+func Death() {
 	doc := heredoc.Doc(`
 
 
@@ -38,7 +39,9 @@ func death() {
 	fmt.Println("\n")
 
 }
-func flower() {
+
+// Flower - No arguments - prints flower ASCHII
+func Flower() {
 	doc := heredoc.Doc(`
 	/-_-\
    /  /  \
